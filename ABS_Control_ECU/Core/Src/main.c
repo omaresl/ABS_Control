@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "Drv_TempSensor.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -93,6 +93,7 @@ int main(void)
 	  for(;;)
 	  {
 		  /* Loop Task */
+		  Drv_TempSensor_MainTask();
 	  }
     /* USER CODE END WHILE */
 
