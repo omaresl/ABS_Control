@@ -1,8 +1,4 @@
-Este archivo es un ejemplo
-
-Con GitKraken
-
 Cambio -> :)
 
-
+Linea que hay que usar para merge
 :3
