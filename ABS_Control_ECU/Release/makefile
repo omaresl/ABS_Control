@@ -60,8 +60,8 @@ all: main-build
 main-build: ABS_Control_ECU.elf secondary-outputs
 
 # Tool invocations
-ABS_Control_ECU.elf ABS_Control_ECU.map: $(OBJS) $(USER_OBJS) C:\Users\LYE1GA\Documents\Sandboxes\GitKraken\ABS_Control\ABS_Control_ECU\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "ABS_Control_ECU.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\LYE1GA\Documents\Sandboxes\GitKraken\ABS_Control\ABS_Control_ECU\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ABS_Control_ECU.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+ABS_Control_ECU.elf ABS_Control_ECU.map: $(OBJS) $(USER_OBJS) C:\Users\SOM5GA\Documents\GitSandbox\Github\ABS_Control\ABS_Control_ECU\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "ABS_Control_ECU.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\SOM5GA\Documents\GitSandbox\Github\ABS_Control\ABS_Control_ECU\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ABS_Control_ECU.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
