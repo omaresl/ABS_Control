@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "EventCounter.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -93,6 +93,15 @@ int main(void)
 	  for(;;)
 	  {
 		  /* Loop Task */
+		  EventCounter();
+		  if(EventCounter_GetValue() > 100u)
+		  {
+
+		  }
+		  else
+		  {
+
+		  }
 	  }
     /* USER CODE END WHILE */
 

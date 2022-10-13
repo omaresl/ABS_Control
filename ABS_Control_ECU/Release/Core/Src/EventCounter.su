@@ -1,0 +1,2 @@
+../Core/Src/EventCounter.c:10:6:EventCounter	0	static
+../Core/Src/EventCounter.c:15:14:EventCounter_GetValue	0	static
