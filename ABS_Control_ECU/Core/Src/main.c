@@ -22,6 +22,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "EventCounter.h"
+#include "Drv_TempSensor.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -102,6 +103,7 @@ int main(void)
 		  {
 
 		  }
+		  Drv_TempSensor_MainTask();
 	  }
     /* USER CODE END WHILE */
 
