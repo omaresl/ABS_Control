@@ -1,2 +1,0 @@
-../Core/Src/Drv_TempSensor.c:11:6:Drv_TempSensor_MainTask	0	static
-../Core/Src/Drv_TempSensor.c:16:15:Drv_TempSensor_GetValue	0	static
